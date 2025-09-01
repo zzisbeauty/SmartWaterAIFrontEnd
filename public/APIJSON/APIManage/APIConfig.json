@@ -1,0 +1,130 @@
+{
+    "msg": null,
+    "state": 0,
+    "success": true,
+    "data": {
+        "records": [
+    {
+        "id": 1,
+        "apiCode": "API_001",
+        "apiName": "用户信息查询",
+        "category": "用户管理",
+        "businessSystem": "用户中心",
+        "apiType": "网关接口",
+        "requestMethod": "GET",
+        "requestUrl": "/api/user/info",
+        "resultExample": "{\"userId\": 1, \"userName\": \"张三\", \"email\": \"zhangsan@example.com\"}",
+        "action": "操作"
+    },
+    {
+        "id": 2,
+        "apiCode": "API_002",
+        "apiName": "用户登录",
+        "category": "用户管理",
+        "businessSystem": "用户中心",
+        "apiType": "网关接口",
+        "requestMethod": "POST",
+        "requestUrl": "/api/user/login",
+        "resultExample": "{\"token\": \"abc123\", \"expiresIn\": 3600}",
+        "action": "操作"
+    },
+    {
+        "id": 3,
+        "apiCode": "API_003",
+        "apiName": "订单查询",
+        "category": "订单管理",
+        "businessSystem": "订单系统",
+        "apiType": "一般接口",
+        "requestMethod": "GET",
+        "requestUrl": "/api/order/list",
+        "resultExample": "[{\"orderId\": 1, \"orderStatus\": \"待支付\", \"amount\": 199.99}]",
+        "action": "操作"
+    },
+    {
+        "id": 4,
+        "apiCode": "API_004",
+        "apiName": "订单创建",
+        "category": "订单管理",
+        "businessSystem": "订单系统",
+        "apiType": "一般接口",
+        "requestMethod": "POST",
+        "requestUrl": "/api/order/create",
+        "resultExample": "{\"orderId\": 1001, \"orderStatus\": \"已创建\"}",
+        "action": "操作"
+    },
+    {
+        "id": 5,
+        "apiCode": "API_005",
+        "apiName": "商品列表",
+        "category": "商品管理",
+        "businessSystem": "商品中心",
+        "apiType": "链接",
+        "requestMethod": "GET",
+        "requestUrl": "/api/product/list",
+        "resultExample": "[{\"productId\": 1, \"productName\": \"iPhone 13\", \"price\": 5999}]",
+        "action": "操作"
+    },
+    {
+        "id": 6,
+        "apiCode": "API_006",
+        "apiName": "商品详情",
+        "category": "商品管理",
+        "businessSystem": "商品中心",
+        "apiType": "链接",
+        "requestMethod": "GET",
+        "requestUrl": "/api/product/detail",
+        "resultExample": "{\"productId\": 1, \"productName\": \"iPhone 13\", \"price\": 5999, \"description\": \"最新款智能手机\"}",
+        "action": "操作"
+    },
+    {
+        "id": 7,
+        "apiCode": "API_007",
+        "apiName": "库存查询",
+        "category": "库存管理",
+        "businessSystem": "库存系统",
+        "apiType": "链接",
+        "requestMethod": "GET",
+        "requestUrl": "/api/stock/query",
+        "resultExample": "{\"productId\": 1, \"stock\": 100}",
+        "action": "操作"
+    },
+    {
+        "id": 8,
+        "apiCode": "API_008",
+        "apiName": "库存更新",
+        "category": "库存管理",
+        "businessSystem": "库存系统",
+        "apiType": "链接",
+        "requestMethod": "PUT",
+        "requestUrl": "/api/stock/update",
+        "resultExample": "{\"productId\": 1, \"stock\": 90}",
+        "action": "操作"
+    },
+    {
+        "id": 9,
+        "apiCode": "API_009",
+        "apiName": "支付订单",
+        "category": "支付管理",
+        "businessSystem": "支付系统",
+        "apiType": "一般接口",
+        "requestMethod": "POST",
+        "requestUrl": "/api/payment/pay",
+        "resultExample": "{\"orderId\": 1001, \"paymentStatus\": \"成功\", \"transactionId\": \"tx123456\"}",
+        "action": "操作"
+    },
+    {
+        "id": 10,
+        "apiCode": "API_010",
+        "apiName": "退款订单",
+        "category": "支付管理",
+        "businessSystem": "支付系统",
+        "apiType": "网关接口",
+        "requestMethod": "POST",
+        "requestUrl": "/api/payment/refund",
+        "resultExample": "{\"orderId\": 1001, \"refundStatus\": \"成功\", \"refundAmount\": 199.99}",
+        "action": "操作"
+    }
+],
+        "total": 10
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "msg": null,
+    "state": 0,
+    "success": true,
+    "result": {
+        "records": [
+            {
+                "id": 1150,
+                "APIName": "查询订单",
+                "APIType": "智能客服小智",
+                "BusinessSystem": "营收系统",
+                "status": "1"
+            },
+            {
+                "id": 1151,
+                "APIName": "统计订单",
+                "APIType": "会议助手Pro",
+                "BusinessSystem": "营收系统",
+                "status": "2"
+            },
+            {
+                "id": 1152,
+                "APIName": "客户资料",
+                "APIType": "教育机器人T-Edu",
+                "BusinessSystem": "营收系统",
+                "status": "3"
+            },
+            {
+                "id": 1153,
+                "APIName": "百度智能云",
+                "APIType": "医疗问诊助手",
+                "BusinessSystem": "营收系统",
+                "status": "1"
+            }
+        ],
+        "total": 4
+    }
+}

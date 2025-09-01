@@ -1,0 +1,64 @@
+{
+    "msg": null,
+    "state": 0,
+    "success": true,
+    "result": {
+        "records": [
+            {
+                "id": 1,
+                "name": "ASR-阿里数字人",
+                "manufacturer": "阿里",
+                "img": "ASR图标.png"
+            },
+            {
+                "id": 2,
+                "name": "ASR-华为内涝",
+                "manufacturer": "阿里",
+                "img": "ASR图标.png"
+            },
+            {
+                "id": 3,
+                "name": "ASR-讯飞巡检",
+                "manufacturer": "阿里",
+                "img": "ASR图标.png"
+            },
+            {
+                "id": 4,
+                "name": "ASR-赛普客服",
+                "manufacturer": "阿里",
+                "img": "ASR图标.png"
+            },
+            {
+                "id": 5,
+                "name": "ASR-标贝本地",
+                "manufacturer": "阿里",
+                "img": "ASR图标.png"
+            },
+            {
+                "id": 6,
+                "name": "ASR-网易私有",
+                "manufacturer": "阿里",
+                "img": "ASR图标.png"
+            },
+            {
+                "id": 7,
+                "name": "ASR-阿里公有",
+                "manufacturer": "阿里",
+                "img": "ASR图标.png"
+            },
+            {
+                "id": 8,
+                "name": "ASR-华为公有",
+                "manufacturer": "阿里",
+                "img": "ASR图标.png"
+            },
+            {
+                "id": 9,
+                "name": "ASR-讯飞公有",
+                "manufacturer": "阿里",
+                "img": "ASR图标.png"
+            }
+        ],
+        "total": 9
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "msg": null,
+  "state": 0,
+  "success": true,
+  "result": {
+    "records": [
+      {
+        "id": 1,
+        "index": 1,
+        "applicationName": "智能客服助手",
+        "userAccount": "userKF",
+        "client": "Web",
+        "sessionNumber": "S123456789",
+        "createTime": "2023-10-01T10:00:00Z",
+        "processingTime": 150,
+        "enterTokens": 50,
+        "OutputTokens": 75
+      },
+      {
+        "id": 2,
+        "index": 2,
+        "applicationName": "内涝监测助手",
+        "userAccount": "userNL",
+        "client": "Mobile",
+        "sessionNumber": "S987654321",
+        "createTime": "2023-10-02T11:30:00Z",
+        "processingTime": 200,
+        "enterTokens": 60,
+        "OutputTokens": 80
+      },
+      {
+        "id": 3,
+        "index": 3,
+        "applicationName": "智能巡检助手",
+        "userAccount": "userXJ",
+        "client": "Desktop",
+        "sessionNumber": "S456789123",
+        "createTime": "2023-10-03T14:45:00Z",
+        "processingTime": 180,
+        "enterTokens": 55,
+        "OutputTokens": 70
+      }
+    ],
+    "total": 5
+  }
+}

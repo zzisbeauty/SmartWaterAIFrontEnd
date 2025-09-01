@@ -1,0 +1,38 @@
+{
+    "msg": null,
+    "state": 0,
+    "success": true,
+    "result": {
+        "records": [
+            {
+                "id": "1",
+                "name": "QwQ-Plus",
+                "manufacturer": "阿里",
+                "introduction": "0wO推理模型增强版，基于Owen2,5型训练的QwO推理模型，通过强化学习大幅度提升了模型推理能力。模型数学代码等核心指标(AIME24/25、livecodebench)以及部分通用指标(IFEval...",
+                "img": "模型图标.png"
+            },
+            {
+                "id": "2",
+                "name": "DeepSeek-R1",
+                "manufacturer": "DeepSeek",
+                "introduction": "deepseek-r1官方模型，进行了满血版私有化部署",
+                "img": "模型图标.png"
+            },
+            {
+                "id": "3",
+                "name": "qwen3",
+                "manufacturer": "阿里",
+                "introduction": "阿里最新的qwen3模型",
+                "img": "模型图标.png"
+            },
+            {
+                "id": "4",
+                "name": "qwen2.5",
+                "manufacturer": "阿里",
+                "introduction": "阿里通义千问系列经典版本，基于超大规模数据训练的语言模型，具备强大的多语言理解和生成能力，支持代码写作、逻辑推理等复杂任务",
+                "img": "模型图标.png"
+            }
+        ],
+        "total": 4
+    }
+}

@@ -1,0 +1,161 @@
+@import './var.css';
+@import 'element-plus/theme-chalk/dark/css-vars.css';
+@font-face {
+  font-family: 'MicrosoftYaHei';
+  src: url('./fonts/MicrosoftYaHei.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MicrosoftYaHeiUI';
+  src: url('./fonts/MicrosoftYaHeiUI.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'MicrosoftYaHei';
+  color: #333;
+}
+.MicrosoftYaHeiUI {
+  font-family: 'MicrosoftYaHeiUI';
+}
+
+// 解决抽屉弹出时，body宽度变化的问题
+.el-popup-parent--hidden {
+  width: 100% !important;
+}
+.el-table {
+  // 设置table表头背景色
+  .el-table__header-wrapper,
+  .el-table__fixed-header-wrapper {
+    th {
+      word-break: break-word;
+      background-color: #f5f5f5 ;
+      color: #333;
+      height: 40px !important;
+      font-size: 13px;
+    }
+  }
+  td.el-table__cell {
+    color: #333;
+    // border-right: none;
+  }
+}
+// 滚动条
+.scrollbarCommon {
+  &::-webkit-scrollbar {
+    width: 2px;
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: rgba(241, 241, 241, 0);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #c2c1c1;
+    border-radius: 6px;
+  }
+}
+.el-form-item--default .el-form-item__label-wrap .el-form-item__label {
+  position: relative;
+  padding-right: 22px;
+  color: #333;
+}
+.el-form-item--default > div {
+  padding-right: 0;
+}
+.el-form-item.is-required:not(.is-no-asterisk).asterisk-right
+  > .el-form-item__label-wrap
+  > .el-form-item__label:after {
+  position: absolute;
+  right: 12px;
+}
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table-page-container {
+  display: flex;
+  flex-direction: column;
+}
+// 去掉文字按钮outline
+.el-button.is-link:focus-visible {
+  outline: 0;
+}
+.label-title {
+  color: #333 !important;
+}
+.label-title + div.flex-1 {
+  font-size: 14px;
+  color: #333;
+  font-weight: normal;
+}
+// tag央视
+
+/* .el-tag {
+  border-radius: 2px !important;
+}
+.el-tag.el-tag--success {
+  background-color: var(--el-color-success-light-9);
+  border-color: var(--el-color-success-light-6);
+}
+.el-tag,
+.el-tag.el-tag--primary {
+  background-color: var(--el-color-primary-light-9);
+  border-color: var(--el-color-primary-light-6);
+}
+.el-tag,
+.el-tag.el-tag--warning {
+  border-color: var(--el-color-warning-color);
+  color: var(--el-color-warning-color);
+}
+.el-tag,
+.el-tag.el-tag--danger {
+  border-color: var(--el-color-danger-color);
+  color: var(--el-color-danger-color);
+} */
+// 去掉el-card的边框
+.card-container {
+  background-color: var(--el-fill-color-blank);
+  border: 0 !important;
+  border-radius: 4px;
+  color: var(--el-text-color-primary);
+  overflow: hidden;
+  transition: var(--el-transition-duration);
+}
+
+// 标题带前面的竖线样式
+.title-before {
+  position: relative;
+  font-family:MicrosoftYaHeiUI ;
+  padding-left: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+
+  line-height: 28px;
+  &::before {
+    content: '';
+    width: 4px;
+    height: 16px;
+    top: 6px;
+    left: 0px;
+    background-color: #2b90fb;
+    margin-right: 8px;
+    border-radius: 2px;
+    position: absolute;
+  }
+}
+
+// 表格最后一列
+.el-table__row {
+  td:last-child {
+    .cell {
+      padding: 0;
+    }
+  }
+}

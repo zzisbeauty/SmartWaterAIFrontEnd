@@ -1,0 +1,76 @@
+{
+    "msg": null,
+    "state": 0,
+    "success": true,
+    "data": {
+        "records": [
+            {
+                "id": 1141,
+                "serviceProvider": "讯飞",
+                "digitalPersonName": "虚拟助手",
+                "numberRoutes": 5,
+                "startTime": "2023-01-15",
+                "endTime": "2024-01-15",
+                "cost": 1999.99,
+                "certifiedSignature": "XF-AI-20230115",
+                "status": "1"
+            },
+            {
+                "id": 1142,
+                "serviceProvider": "百度",
+                "digitalPersonName": "智能客服",
+                "numberRoutes": 3,
+                "startTime": "2022-11-20",
+                "endTime": "2023-11-20",
+                "cost": 2499.00,
+                "certifiedSignature": "BD-AI-20221120",
+                "status": "2"
+            },
+            {
+                "id": 1143,
+                "serviceProvider": "讯飞",
+                "digitalPersonName": "会议助手",
+                "numberRoutes": 2,
+                "startTime": "2023-03-10",
+                "endTime": "2023-09-10",
+                "cost": 1599.50,
+                "certifiedSignature": "XF-AI-20230310",
+                "status": "3"
+            },
+            {
+                "id": 1144,
+                "serviceProvider": "百度",
+                "digitalPersonName": "教育机器人",
+                "numberRoutes": 4,
+                "startTime": "2021-08-05",
+                "endTime": "2022-08-05",
+                "cost": 2999.99,
+                "certifiedSignature": "BD-AI-20210805",
+                "status": "4"
+            },
+            {
+                "id": 1145,
+                "serviceProvider": "百度",
+                "digitalPersonName": "智能巡检助手",
+                "numberRoutes": 4,
+                "startTime": "2021-08-05",
+                "endTime": "2022-08-05",
+                "cost": 2999.99,
+                "certifiedSignature": "BD-AI-20210805",
+                "status": "4"
+            },
+            {
+                "id": 1146,
+                "serviceProvider": "讯飞",
+                "digitalPersonName": "内涝监测助手",
+                "numberRoutes": 4,
+                "startTime": "2021-08-05",
+                "endTime": "2022-08-05",
+                "cost": 2999.99,
+                "certifiedSignature": "BD-AI-20210805",
+                "status": "4"
+            }
+        ],
+        "total": 6
+    }
+}
