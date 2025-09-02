@@ -1,0 +1,70 @@
+{
+    "msg": null,
+    "state": 0,
+    "success": true,
+    "data": {
+        "records": [
+            {
+                "id": 1150,
+                "serviceProvider": "华为云",
+                "name": "智能客服小智",
+                "currentDuration": "120小时",
+                "totalDuration": "200小时",
+                "startTime": "2023-05-15",
+                "endTime": "2024-05-15",
+                "cost": 3999.00,
+                "certifiedSignature": "HW-AI-20230515",
+                "status": "1"
+            },
+            {
+                "id": 1151,
+                "serviceProvider": "阿里云",
+                "name": "会议助手Pro",
+                "currentDuration": "45小时",
+                "totalDuration": "150小时",
+                "startTime": "2023-08-20",
+                "endTime": "2024-02-20",
+                "cost": 2899.50,
+                "certifiedSignature": "AL-AI-20230820",
+                "status": "2"
+            },
+            {
+                "id": 1152,
+                "serviceProvider": "腾讯云",
+                "name": "教育机器人T-Edu",
+                "currentDuration": "10小时",
+                "totalDuration": "100小时",
+                "startTime": "2023-10-10",
+                "endTime": "2024-01-10",
+                "cost": 1999.99,
+                "certifiedSignature": "TX-AI-20231010",
+                "status": "3"
+            },
+            {
+                "id": 1153,
+                "serviceProvider": "百度智能云",
+                "name": "医疗问诊助手",
+                "currentDuration": "80小时",
+                "totalDuration": "180小时",
+                "startTime": "2023-03-25",
+                "endTime": "2024-03-25",
+                "cost": 4599.00,
+                "certifiedSignature": "BD-AI-20230325",
+                "status": "1"
+            },
+            {
+                "id": 1154,
+                "serviceProvider": "科大讯飞",
+                "name": "政务服务平台",
+                "currentDuration": "5小时",
+                "totalDuration": "120小时",
+                "startTime": "2023-11-01",
+                "endTime": "2024-02-01",
+                "cost": 3299.99,
+                "certifiedSignature": "XF-AI-20231101",
+                "status": "2"
+            }
+        ],
+        "total": 5
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "mars2d": {
+    "zoom": 13,
+    "center": { "lng":113.535204, "lat": 34.714242},
+    "minZoom": 2,
+    "maxZoom": 18,
+    "centerAutoLevel": 15,
+    "contextmenu":  null,
+    "control": {
+      "scale": false,
+      "locationBar": false,
+      "zoom": null
+    },
+    "copyright":false,
+    "basemaps": [
+     {
+        "id": 20,
+        "icon": "bd-c-midnight.png",
+        "show":true,
+        "name": "高德地图",
+        "type": "gaode",
+        "layer": "vec",
+        "chinaCRS": "GCJ02"
+      }
+      
+    ],
+    "operationallayers":[]
+}
+}

@@ -213,7 +213,8 @@ const signIn = async () => {
           usercode: formData.usercode,
           password: doSM2Encrypt(formData.password),
           ip: ip.value,
-          devicetype: devicetype.value
+          devicetype: devicetype.value,
+          tenementId: "498521b4-9d3c-4b53-bad6-0d8b25731c3c",
         }
         // const res: any = await loginApi(param)
         const res: any = await apiPostData('403549338db2f283dc8e9065de815ec2', param)

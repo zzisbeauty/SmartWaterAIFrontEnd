@@ -1,0 +1,1 @@
+import a from"./Index-C0e0d849.js";import{y as o,z as t,A as s,R as c}from"./vue-chunks-CXl5k5J6.js";const n={class:"w-100% h-100% dialogue-container"},f=o({__name:"Dialogue",setup(r,{expose:e}){return e({feedBackData:()=>{}}),(i,m)=>(s(),t("div",n,[c(a)]))}});export{f as _};

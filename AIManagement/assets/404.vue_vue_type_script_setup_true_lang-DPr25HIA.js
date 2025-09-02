@@ -1,0 +1,1 @@
+import{_ as t}from"./Error.vue_vue_type_script_setup_true_lang-CtcHB-s3.js";import{h as n}from"./index-h19Wh-c5.js";import{y as a,aD as c,I as i,A as m,u as p}from"./vue-chunks-CXl5k5J6.js";const l=a({__name:"404",setup(_){const{push:r}=c(),s=n(),e=()=>{var o;r((o=s.addRouters[0])==null?void 0:o.path)};return(o,u)=>(m(),i(p(t),{onErrorClick:e}))}});export{l as _};

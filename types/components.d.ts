@@ -59,11 +59,13 @@ declare module 'vue' {
     ElScrollbar: typeof import('element-plus/es')['ElScrollbar']
     ElSelect: typeof import('element-plus/es')['ElSelect']
     ElSlider: typeof import('element-plus/es')['ElSlider']
+    ElSpace: typeof import('element-plus/es')['ElSpace']
     ElSwitch: typeof import('element-plus/es')['ElSwitch']
     ElTable: typeof import('element-plus/es')['ElTable']
     ElTableColumn: typeof import('element-plus/es')['ElTableColumn']
     ElTag: typeof import('element-plus/es')['ElTag']
     ElTooltip: typeof import('element-plus/es')['ElTooltip']
+    ElTree: typeof import('element-plus/es')['ElTree']
     ElUpload: typeof import('element-plus/es')['ElUpload']
     Error: typeof import('./../src/components/Error/src/Error.vue')['default']
     FileListDetail: typeof import('./../src/components/fileListDetail/index.vue')['default']
@@ -116,7 +118,7 @@ declare module 'vue' {
     VideoPlayerViewer: typeof import('./../src/components/VideoPlayerViewer/src/VideoPlayerViewer.vue')['default']
     Waterfall: typeof import('./../src/components/Waterfall/src/Waterfall.vue')['default']
   }
-  export interface ComponentCustomProperties {
+  export interface GlobalDirectives {
     vLoading: typeof import('element-plus/es')['ElLoadingDirective']
   }
 }

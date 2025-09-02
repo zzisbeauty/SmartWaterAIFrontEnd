@@ -1,0 +1,65 @@
+{
+  "msg": null,
+  "state": 0,
+  "success": true,
+  "result": {
+    "records": [
+      {
+        "id": 1,
+        "name": "项目计划书.pdf",
+        "blocksNumber": 15,
+        "slicingMethod": "按章节分割",
+        "uploadDate": "2025-06-25",
+        "startStopStatus": 1,
+        "status": 1,
+        "status_dictText": "成功",
+        "percentage": 0
+      },
+      {
+        "id": 2,
+        "name": "年度财报.xlsx",
+        "blocksNumber": 8,
+        "slicingMethod": "按季度分割",
+        "uploadDate": "2025-06-28",
+        "startStopStatus": 0,
+        "status": 2,
+        "status_dictText": "未解析",
+        "percentage": 0
+      },
+      {
+        "id": 3,
+        "name": "产品手册.docx",
+        "blocksNumber": 23,
+        "slicingMethod": "按段落分割",
+        "uploadDate": "2025-06-20",
+        "startStopStatus": 1,
+        "status": 1,
+        "status_dictText": "成功",
+        "percentage": 0
+      },
+      {
+        "id": 4,
+        "name": "市场分析报告.pptx",
+        "blocksNumber": 5,
+        "slicingMethod": "按页分割",
+        "uploadDate": "2025-06-29",
+        "startStopStatus": 0,
+        "status": 2,
+        "status_dictText": "未解析",
+        "percentage": 0
+      },
+      {
+        "id": 5,
+        "name": "用户协议.txt",
+        "blocksNumber": 3,
+        "slicingMethod": "按条款分割",
+        "uploadDate": "2025-06-18",
+        "startStopStatus": 1,
+        "status": 3,
+        "status_dictText": "解析中",
+        "percentage": 0
+      }
+    ],
+    "total": 5
+  }
+}

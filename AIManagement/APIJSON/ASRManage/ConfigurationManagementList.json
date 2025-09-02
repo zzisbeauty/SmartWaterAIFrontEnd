@@ -1,0 +1,62 @@
+{
+  "msg": null,
+  "state": 0,
+  "success": true,
+  "data": {
+    "records": [
+      {
+        "id": 1,
+        "name": "智能客服配置",
+        "serviceProvider": "赛普",
+        "voiceFormat": "pcm8k16bit",
+        "modelFeatureString": "chinese_8k_general",
+        "arabicDigits": true,
+        "headSilenceTime": 10,
+        "tailSilenceTime": 10,
+        "outputIntermediateResults": true,
+        "outputSegmentation": true,
+        "startStopStatus": true
+      },
+      {
+        "id": 2,
+        "name": "内涝监测配置",
+        "serviceProvider": "阿里",
+        "voiceFormat": "pcm16k16bit",
+        "modelFeatureString": "english_16k_general",
+        "arabicDigits": false,
+        "headSilenceTime": 5,
+        "tailSilenceTime": 5,
+        "outputIntermediateResults": false,
+        "outputSegmentation": false,
+        "startStopStatus": false
+      },
+      {
+        "id": 3,
+        "name": "巡检助手配置",
+        "serviceProvider": "讯飞",
+        "voiceFormat": "pcm8k8bit",
+        "modelFeatureString": "japanese_8k_general",
+        "arabicDigits": true,
+        "headSilenceTime": 15,
+        "tailSilenceTime": 15,
+        "outputIntermediateResults": true,
+        "outputSegmentation": true,
+        "startStopStatus": true
+      },
+      {
+        "id": 4,
+        "name": "DMA智能分析配置",
+        "serviceProvider": "华为",
+        "voiceFormat": "pcm16k8bit",
+        "modelFeatureString": "korean_16k_general",
+        "arabicDigits": false,
+        "headSilenceTime": 20,
+        "tailSilenceTime": 20,
+        "outputIntermediateResults": false,
+        "outputSegmentation": false,
+        "startStopStatus": false
+      }
+    ],
+    "total": 4
+  }
+}
