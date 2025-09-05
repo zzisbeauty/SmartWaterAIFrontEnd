@@ -1,17 +1,16 @@
-```bash
+```shell
 cd vue-element-plus-admin
-
 pnpm install
-
 ```
 
 - run
 
-```bash
+```shell
 pnpm run dev
 ```
 
 - build
 
-```bash
+```shell
 pnpm run build:pro
+```
